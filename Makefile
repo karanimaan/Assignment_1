@@ -1,2 +1,2 @@
-VaccineArrayApp.class: VaccineArrayApp.java
-	javac VaccineArrayApp.java
+bin/VaccineArrayApp.class: src/VaccineArrayApp.java
+	javac src/VaccineArrayApp.java

@@ -1,0 +1,15 @@
+//scanner waits for input no matter what?
+because of .next() instead of String date = terminalInput.nextLine();
+why next() don't work?
+/*while (terminalInput.hasNext()) {
+            countries[i++] = terminalInput.next();
+        }*/
+
+Scanner fileInput = null;
+        //BufferedReader fileInput = new BufferedReader(new FileReader("email.txt"));
+        try {
+            fileInput = new Scanner(new File("data/vaccincations.csv"));
+        }
+        catch(Exception e) {
+            System.out.print("Missing files");
+        };
