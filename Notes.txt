@@ -13,3 +13,13 @@ Scanner fileInput = null;
         catch(Exception e) {
             System.out.print("Missing files");
         };
+
+default inputs
+        String date = "2022-02-17";
+        String[] countries = "Norway, Suriname, South Namibia".split(", ");
+
+2022-02-17
+
+Norway
+Suriname
+South Namibia
